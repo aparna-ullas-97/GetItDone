@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#a8e063"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-<meta name="apple-mobile-web-app-title" content="Mission Control"/>
+<meta name="apple-mobile-web-app-title" content="Mission Controlled"/>
 <title>Mission Controlled</title>
 <link rel="manifest" href="/manifest.json"/>
 <link rel="apple-touch-icon" href="/icon-192.png"/>
@@ -348,7 +348,7 @@ function schedRem(){
       var ms=fire.getTime()-now.getTime();
       if(ms<0)ms+=864e5;
       var tid=setTimeout(function(){
-        try{new Notification("Mission Control",{body:r.msg,icon:"/icon-192.png",tag:r.id});}catch(e){}
+        try{new Notification("Mission Controlled",{body:r.msg,icon:"/icon-192.png",tag:r.id});}catch(e){}
       },ms);
       _nt.push(tid);
     }(G.rems[i]));
@@ -1302,7 +1302,7 @@ function schedRem(){
       var ms=fire.getTime()-now.getTime();
       if(ms<0)ms+=864e5;
       var tid=setTimeout(function(){
-        try{new Notification("Mission Control",{body:r.msg,icon:"/icon-192.png",tag:r.id});}catch(e){}
+        try{new Notification("Mission Controlled",{body:r.msg,icon:"/icon-192.png",tag:r.id});}catch(e){}
       },ms);
       _nt.push(tid);
     }(G.rems[i]));
@@ -1644,7 +1644,7 @@ function pageAlerts(){
     var tb=btn("obtn","border:1.5px solid var(--ac);color:var(--ac);margin-bottom:10px");
     tb.appendChild(tx("SEND TEST NOTIFICATION"));
     tb.onclick=function(){
-      try{new Notification("Mission Control",{body:"Test - system operational!",icon:"/icon-192.png"});}
+      try{new Notification("Mission Controlled",{body:"Test - system operational!",icon:"/icon-192.png"});}
       catch(e){toast("Check your notification tray!");}
     };
     ap(f,tb);
