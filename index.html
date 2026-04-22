@@ -372,13 +372,30 @@
 
       // Streak
       useEffect(() => {
+
         if (lastActive !== today) {
-          const yest = new Date(); yest.setDate(yest.getDate()-1);
-          const yKey = yest.toISOString().split("T")[0];
-          setStreak(s => lastActive===yKey ? s+1 : 1);
+
+          const yesterday = new Date();
+
+          yesterday.setDate(yesterday.getDate() - 1);
+
+          const yKey = yesterday.toISOString().split("T")[0];
+
+          if (lastActive === yKey) {
+
+            setStreak((s) => s + 1);
+
+          } else if (lastActive !== today) {
+
+            setStreak(0);
+
+          }
+
           setLastActive(today);
+
         }
-      }, []);
+
+        }, [lastActive, today, setLastActive, setStreak]);
 
       // PWA install prompt
       useEffect(() => {
