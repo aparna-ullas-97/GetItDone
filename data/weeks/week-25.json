@@ -1,0 +1,562 @@
+{
+  "weekNumber": 25,
+  "weekLabel": "Week of Oct 23 – Oct 29, 2026",
+  "weekStrip": [
+    {
+      "wd": "Fri",
+      "date": "Oct 23"
+    },
+    {
+      "wd": "Sat",
+      "date": "Oct 24"
+    },
+    {
+      "wd": "Sun",
+      "date": "Oct 25"
+    },
+    {
+      "wd": "Mon",
+      "date": "Oct 26"
+    },
+    {
+      "wd": "Tue",
+      "date": "Oct 27"
+    },
+    {
+      "wd": "Wed",
+      "date": "Oct 28"
+    },
+    {
+      "wd": "Thu",
+      "date": "Oct 29"
+    }
+  ],
+  "exerciseTotal": 4730,
+  "days": [
+    {
+      "id": "fri",
+      "wd": "Fri",
+      "date": 23,
+      "title": "Finish Strong",
+      "theme": "cherry",
+      "tags": [
+        {
+          "kind": "strength",
+          "text": "💪 Strength"
+        },
+        {
+          "kind": "steps-low",
+          "text": "🚶 10k Steps"
+        }
+      ],
+      "macros": {
+        "kcal": 1620,
+        "protein": 130,
+        "carbs": 150,
+        "fat": 45
+      },
+      "stepsGoal": {
+        "icon": "🌟",
+        "value": 10000,
+        "sub": "Spread across the day"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + 1 whole wheat bread + cucumber & tomato",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: 100g Greek yogurt + berries — don't skip it",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Pre-workout: Small banana or rice cakes ~30 min before",
+          "mealKcal": 105,
+          "mealProtein": 2,
+          "mealFiber": 2
+        },
+        {
+          "cat": "meal",
+          "text": "Lunch/post-workout: 200g chicken + plain frozen veg (airfried) + ½ cup rice",
+          "mealKcal": 430,
+          "mealProtein": 43,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: 200g chicken + large salad or veg, no rice tonight",
+          "mealKcal": 330,
+          "mealProtein": 42,
+          "mealFiber": 7
+        },
+        {
+          "cat": "workout",
+          "label": "Strength",
+          "cal": 350,
+          "text": "Lower body: Squats 4×10, Romanian deadlifts 4×10, hip thrusts 3×12, lunges 3×10 each leg"
+        },
+        {
+          "cat": "steps",
+          "cal": 400,
+          "text": "Reach 10,000 steps — walk to/from gym, take stairs, evening stroll counts"
+        },
+        {
+          "cat": "wellness",
+          "text": "Drink 2.5–3L water today"
+        },
+        {
+          "cat": "wellness",
+          "text": "Sleep by 10:30pm — recovery starts tonight 🌙"
+        }
+      ]
+    },
+    {
+      "id": "sat",
+      "wd": "Sat",
+      "date": 24,
+      "title": "Walk & Celebrate",
+      "theme": "weekend",
+      "tags": [
+        {
+          "kind": "steps-high",
+          "text": "🚶 20k Steps"
+        },
+        {
+          "kind": "cheat",
+          "text": "🍕 Cheat Meal"
+        }
+      ],
+      "macros": {
+        "kcal": 1900,
+        "protein": 100,
+        "carbs": 220,
+        "fat": 65,
+        "kcalLabel": "~1,900"
+      },
+      "stepsGoal": {
+        "icon": "🌿",
+        "value": 20000,
+        "sub": "~14–16 km · explore the city"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: High-protein as usual — don't arrive at cheat meal starving",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 4
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Light — Greek yogurt or salad",
+          "mealKcal": 150,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "cheat",
+          "text": "🍕 CHEAT MEAL: Pizza, biryani, pasta — whatever your heart wants. One meal, full joy, zero guilt.",
+          "mealKcal": 750,
+          "mealProtein": 25,
+          "mealFiber": 4,
+          "mealKcalLabel": "~750 kcal",
+          "mealProteinLabel": "~25g protein",
+          "mealFiberLabel": "~4g fiber"
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: Back to clean — chicken + veg",
+          "mealKcal": 330,
+          "mealProtein": 42,
+          "mealFiber": 6
+        },
+        {
+          "cat": "steps",
+          "cal": 200,
+          "text": "Morning walk: 5,000 steps before breakfast to kickstart the day"
+        },
+        {
+          "cat": "steps",
+          "cal": 450,
+          "text": "Long afternoon walk: explore a park, market, or neighborhood — make it fun"
+        },
+        {
+          "cat": "steps",
+          "cal": 150,
+          "text": "Evening stroll after dinner — gentle, no rush, enjoy it"
+        },
+        {
+          "cat": "wellness",
+          "text": "No guilt for the cheat meal. It's written into the plan ❤"
+        }
+      ],
+      "cheatBanner": {
+        "title": "🧡 Cheat Meal Rules",
+        "body": "One meal, not a full day. Eat slowly, taste everything. Don't restrict before or compensate after. This is what makes the other 6 days sustainable."
+      }
+    },
+    {
+      "id": "sun",
+      "wd": "Sun",
+      "date": 25,
+      "title": "Rest & Restore",
+      "theme": "butter",
+      "tags": [
+        {
+          "kind": "rest",
+          "text": "✨ Full Rest"
+        }
+      ],
+      "macros": {
+        "kcal": 1500,
+        "protein": 110,
+        "carbs": 115,
+        "fat": 50
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + bread + veggies — your classic",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Greek yogurt + berries",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Lunch: Chicken + veg, maybe a small homemade curry (½ rice)",
+          "mealKcal": 420,
+          "mealProtein": 38,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Sweet craving: Banana egg cake or protein pudding ❤",
+          "mealKcal": 155,
+          "mealProtein": 12,
+          "mealFiber": 2
+        },
+        {
+          "cat": "steps",
+          "cal": 80,
+          "text": "Gentle walk only — 15–20 mins if you feel like it. No pressure."
+        },
+        {
+          "cat": "wellness",
+          "text": "Meal prep: marinate chicken for Mon & Tue, portion veg"
+        },
+        {
+          "cat": "wellness",
+          "text": "8 hours sleep — your muscles literally rebuild tonight 🌙"
+        },
+        {
+          "cat": "wellness",
+          "text": "Set your intentions for the week — you're doing something incredible"
+        }
+      ]
+    },
+    {
+      "id": "mon",
+      "wd": "Mon",
+      "date": 26,
+      "title": "Power Reset",
+      "theme": "cherry",
+      "tags": [
+        {
+          "kind": "strength",
+          "text": "💪 Strength"
+        },
+        {
+          "kind": "steps-low",
+          "text": "🚶 10k Steps"
+        }
+      ],
+      "macros": {
+        "kcal": 1620,
+        "protein": 130,
+        "carbs": 150,
+        "fat": 45
+      },
+      "stepsGoal": {
+        "icon": "🌟",
+        "value": 10000,
+        "sub": "Walk to gym + stairs + evening stroll"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + bread + cucumber & tomato",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Greek yogurt + berries",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Lunch/post-workout: 200g chicken + plain veg + ½ cup rice",
+          "mealKcal": 430,
+          "mealProtein": 43,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: 200g chicken + big salad or veg, no rice",
+          "mealKcal": 330,
+          "mealProtein": 42,
+          "mealFiber": 7
+        },
+        {
+          "cat": "workout",
+          "label": "Strength",
+          "cal": 320,
+          "text": "Upper body: Bench/push-up 4×10, dumbbell rows 4×10, shoulder press 3×12, bicep curls 3×12"
+        },
+        {
+          "cat": "steps",
+          "cal": 400,
+          "text": "Hit 10,000 steps — easy when you spread it through the day"
+        },
+        {
+          "cat": "wellness",
+          "text": "3L water · 8 hours sleep 😴"
+        }
+      ]
+    },
+    {
+      "id": "tue",
+      "wd": "Tue",
+      "date": 27,
+      "title": "Walk It Out",
+      "theme": "sage",
+      "tags": [
+        {
+          "kind": "steps-high",
+          "text": "🌿 20k Steps"
+        }
+      ],
+      "macros": {
+        "kcal": 1550,
+        "protein": 120,
+        "carbs": 130,
+        "fat": 48
+      },
+      "stepsGoal": {
+        "icon": "🌿",
+        "value": 20000,
+        "sub": "~14–16 km of fat burning"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + bread + veggies",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Greek yogurt + berries",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Lunch: 200g chicken + plain frozen veg",
+          "mealKcal": 280,
+          "mealProtein": 42,
+          "mealFiber": 6
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: Chicken Caesar salad or chicken + veg bowl",
+          "mealKcal": 350,
+          "mealProtein": 38,
+          "mealFiber": 3
+        },
+        {
+          "cat": "steps",
+          "cal": 320,
+          "text": "Morning: 7,000–8,000 steps before noon (long walk or commute on foot)"
+        },
+        {
+          "cat": "steps",
+          "cal": 480,
+          "text": "Afternoon/evening: Top up to 20,000 — podcast walk, errands on foot, park loop"
+        },
+        {
+          "cat": "wellness",
+          "text": "No gym today — your body is recovering and burning fat through walking ❤"
+        },
+        {
+          "cat": "wellness",
+          "text": "If sugar craving hits: high-protein pudding or banana egg cake"
+        }
+      ]
+    },
+    {
+      "id": "wed",
+      "wd": "Wed",
+      "date": 28,
+      "title": "Sculpt Day",
+      "theme": "cherry",
+      "tags": [
+        {
+          "kind": "strength",
+          "text": "💪 Strength"
+        },
+        {
+          "kind": "steps-low",
+          "text": "🚶 10k Steps"
+        }
+      ],
+      "macros": {
+        "kcal": 1620,
+        "protein": 130,
+        "carbs": 150,
+        "fat": 45
+      },
+      "stepsGoal": {
+        "icon": "🌟",
+        "value": 10000,
+        "sub": "Gym day — steps come naturally"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + bread + veggies",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Greek yogurt + berries",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Post-workout: 200g chicken + plain veg + ½ cup rice",
+          "mealKcal": 430,
+          "mealProtein": 43,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: Homemade curry — double protein, ½ rice max",
+          "mealKcal": 480,
+          "mealProtein": 50,
+          "mealFiber": 5
+        },
+        {
+          "cat": "workout",
+          "label": "Strength",
+          "cal": 380,
+          "text": "Full body: Deadlifts 4×8, pull-ups/rows 4×10, goblet squats 3×12, overhead press 3×12"
+        },
+        {
+          "cat": "steps",
+          "cal": 400,
+          "text": "10,000 steps — walk to gym + around the neighborhood after dinner"
+        },
+        {
+          "cat": "wellness",
+          "text": "5-min stretch post-workout — don't skip this one 🌸"
+        }
+      ]
+    },
+    {
+      "id": "thu",
+      "wd": "Thu",
+      "date": 29,
+      "title": "Flow & Explore",
+      "theme": "sage",
+      "tags": [
+        {
+          "kind": "steps-high",
+          "text": "🌿 20k Steps"
+        }
+      ],
+      "macros": {
+        "kcal": 1550,
+        "protein": 120,
+        "carbs": 130,
+        "fat": 48
+      },
+      "stepsGoal": {
+        "icon": "🌿",
+        "value": 20000,
+        "sub": "End the week on a high note"
+      },
+      "checklist": [
+        {
+          "cat": "meal",
+          "text": "Breakfast: 2 eggs + bread + cucumber & carrot",
+          "mealKcal": 285,
+          "mealProtein": 18,
+          "mealFiber": 5
+        },
+        {
+          "cat": "meal",
+          "text": "Midday: Greek yogurt + berries",
+          "mealKcal": 125,
+          "mealProtein": 10,
+          "mealFiber": 3
+        },
+        {
+          "cat": "meal",
+          "text": "Lunch: 200g chicken + big veggie bowl, no rice today",
+          "mealKcal": 280,
+          "mealProtein": 42,
+          "mealFiber": 8
+        },
+        {
+          "cat": "meal",
+          "text": "Dinner: Chicken Caesar salad or light homemade bowl",
+          "mealKcal": 350,
+          "mealProtein": 38,
+          "mealFiber": 3
+        },
+        {
+          "cat": "steps",
+          "cal": 320,
+          "text": "Morning walk: 8,000 steps — long walk with a podcast or music"
+        },
+        {
+          "cat": "steps",
+          "cal": 480,
+          "text": "Evening: Top up remaining steps — soft lighting, slow pace, wind down"
+        },
+        {
+          "cat": "wellness",
+          "text": "Reflect on this week — how do you feel? What worked? 🌙"
+        },
+        {
+          "cat": "wellness",
+          "text": "Early to bed — you crushed week one 🌸"
+        }
+      ]
+    }
+  ]
+}

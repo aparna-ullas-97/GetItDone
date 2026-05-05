@@ -1,0 +1,19 @@
+{
+  "title": "Strong, Lean &",
+  "titleEm": "Unstoppable",
+  "subtitle": "78kg → 60–62kg · one beautiful step at a time",
+  "headerStats": [
+    { "dot": "cherry", "text": "3× Strength + 10k steps" },
+    { "dot": "sage",   "text": "3× Active 20k steps" },
+    { "dot": "butter", "text": "1× Full rest" }
+  ],
+  "calPerKg": 7700,
+  "weeklyKgGoal": 0.65,
+  "journey": [
+    { "label": "Now",     "barPct": 100, "color": "var(--butter-deep)", "value": "78 kg" },
+    { "label": "Month 2", "barPct": 86,  "color": "var(--pink)",        "value": "~73 kg" },
+    { "label": "Month 4", "barPct": 74,  "color": "var(--sage)",        "value": "~67 kg" },
+    { "label": "Goal 🎯", "barPct": 64,  "color": "var(--cherry)",      "value": "61 kg" }
+  ],
+  "mantra": "\"Every step counts.<br>Every meal counts.<br>You are <em>already becoming her.</em>\""
+}

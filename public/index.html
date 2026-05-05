@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>My Weekly Glow Plan</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Glow Plan ✦">
+<meta name="theme-color" content="#2C2416">
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%232C2416'/%3E%3Ctext x='90' y='115' font-size='90' text-anchor='middle'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22My%20Weekly%20Glow%20Plan%22%2C%22short_name%22%3A%22Glow%20Plan%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23FEFAF0%22%2C%22theme_color%22%3A%22%232C2416%22%2C%22orientation%22%3A%22portrait%22%7D">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="layout">
+
+    <aside class="sidebar">
+      <div class="header">
+        <h1 id="headerTitle">—</h1>
+        <p class="header-sub" id="headerSub">—</p>
+        <div class="header-stats" id="headerStats"></div>
+      </div>
+
+      <div class="streak-card">
+        <div class="streak-pill">
+          <span class="streak-icon">🔥</span>
+          <div><div class="streak-num" id="streakWorkouts">0</div><div class="streak-lbl">workout days</div></div>
+        </div>
+        <div class="streak-pill">
+          <span class="streak-icon">💧</span>
+          <div><div class="streak-num" id="streakHydration">0</div><div class="streak-lbl">8/8 water</div></div>
+        </div>
+        <div class="streak-pill">
+          <span class="streak-icon">📝</span>
+          <div><div class="streak-num" id="streakLogged">0</div><div class="streak-lbl">logged days</div></div>
+        </div>
+      </div>
+
+      <button class="today-btn" id="todayBtn" disabled>📍 Jump to today</button>
+
+      <div class="progress-section">
+        <h2>Your 6-Month Journey <em>✦</em></h2>
+        <div class="goal-track" id="goalTrack"></div>
+      </div>
+
+      <div class="mantra">
+        <p id="mantra">—</p>
+      </div>
+
+      <div class="sidebar-tools">
+        <button class="tool-link" id="chartsBtn">📊 View charts</button>
+        <button class="tool-link" id="exportBtn">↓ Export CSV</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="legend">
+        <div class="legend-item"><span class="legend-dot" style="background:var(--cherry)"></span>Strength</div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--sage)"></span>20k steps day</div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--butter-deep)"></span>Meal task</div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--pink-deep)"></span>Wellness</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#C0622B"></span>Cheat meal 🧡</div>
+      </div>
+
+      <div class="weeks-list" id="weeksList"></div>
+      <button class="add-week-btn" id="addWeekBtn">+ Add next week</button>
+    </main>
+
+  </div>
+</div>
+
+<div class="burn-bar">
+  <div class="burn-inner">
+    <div class="burn-row1">
+      <span class="burn-icon" id="burnFlame">🔥</span>
+      <div>
+        <div class="burn-label" id="burnContext">No week open</div>
+        <div class="burn-val" id="exBurnVal">0 <small>/ 0 kcal</small></div>
+      </div>
+      <div class="burn-progress-wrap">
+        <div class="burn-progress-track"><div class="burn-progress-fill" id="burnFill"></div></div>
+        <div class="burn-pct-lbl" id="burnPctLbl">— open a week to see stats</div>
+      </div>
+      <div class="deficit-pill">
+        <div class="def-val positive" id="deficitVal">— kcal</div>
+        <div class="def-lbl">vs plan target</div>
+      </div>
+    </div>
+    <div class="burn-row2">
+      <span class="burn-icon">🍽️</span>
+      <div>
+        <div class="burn-label">Food Logged This Week</div>
+        <div class="burn-val" id="foodVal">0 <small>kcal eaten</small></div>
+      </div>
+      <div class="burn-divider"></div>
+      <div class="kg-pill">
+        <div class="kg-val" id="totalKgVal">~0.00 kg</div>
+        <div class="kg-lbl">this week</div>
+      </div>
+      <div class="kg-pill kg-lifetime">
+        <div class="kg-val" id="lifetimeKgVal">~0.00 kg</div>
+        <div class="kg-lbl">all-time total</div>
+      </div>
+      <div class="save-status" id="saveStatus">💾 saved</div>
+      <button class="burn-reset" id="resetBtn">↺ Reset week</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="chartsModal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card">
+    <header class="modal-header">
+      <h2>📊 Charts</h2>
+      <button class="modal-close" data-close aria-label="Close">×</button>
+    </header>
+    <div class="modal-body">
+      <section class="chart-block">
+        <h3>Weight curve <small>actual vs expected</small></h3>
+        <svg id="weightChart" viewBox="0 0 600 240" preserveAspectRatio="xMidYMid meet"></svg>
+        <p class="chart-empty" id="weightEmpty" hidden>Log a weight in any week to see the curve.</p>
+      </section>
+      <section class="chart-block">
+        <h3>Estimated kg lost per week</h3>
+        <svg id="deficitChart" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet"></svg>
+      </section>
+      <section class="chart-block">
+        <h3>Mood across the journey</h3>
+        <div class="mood-grid" id="moodChart"></div>
+      </section>
+      <section class="chart-block">
+        <h3>Calories eaten per week</h3>
+        <svg id="kcalChart" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet"></svg>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="photoModal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="photo-viewer">
+    <button class="modal-close" data-close>×</button>
+    <img id="photoModalImg" alt="">
+    <div class="photo-meta" id="photoModalMeta"></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

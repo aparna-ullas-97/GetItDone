@@ -1,0 +1,38 @@
+{
+  "_comment": "Copy this file to week-02.json (then 03, 04...) and fill in. Files starting with _ are ignored by the server.",
+  "weekNumber": 0,
+  "weekLabel": "Week of MMM D – D, YYYY",
+  "weekStrip": [
+    { "wd": "Fri", "date": "MMM D" },
+    { "wd": "Sat", "date": "MMM D" },
+    { "wd": "Sun", "date": "MMM D" },
+    { "wd": "Mon", "date": "MMM D" },
+    { "wd": "Tue", "date": "MMM D" },
+    { "wd": "Wed", "date": "MMM D" },
+    { "wd": "Thu", "date": "MMM D" }
+  ],
+  "exerciseTotal": 4730,
+  "days": [
+    {
+      "id": "fri",
+      "wd": "Fri",
+      "date": 0,
+      "title": "—",
+      "theme": "cherry",
+      "tags": [
+        { "kind": "strength", "text": "💪 Strength" },
+        { "kind": "steps-low", "text": "🚶 10k Steps" }
+      ],
+      "macros": { "kcal": 1620, "protein": 130, "carbs": 150, "fat": 45 },
+      "stepsGoal": { "icon": "🌟", "value": 10000, "sub": "—" },
+      "checklist": [
+        { "cat": "meal", "text": "Breakfast: —", "mealKcal": 0, "mealProtein": 0, "mealFiber": 0 },
+        { "cat": "meal", "text": "Lunch: —", "mealKcal": 0, "mealProtein": 0, "mealFiber": 0 },
+        { "cat": "meal", "text": "Dinner: —", "mealKcal": 0, "mealProtein": 0, "mealFiber": 0 },
+        { "cat": "workout", "label": "Strength", "cal": 0, "text": "—" },
+        { "cat": "steps", "cal": 0, "text": "—" },
+        { "cat": "wellness", "text": "—" }
+      ]
+    }
+  ]
+}

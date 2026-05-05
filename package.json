@@ -1,0 +1,12 @@
+{
+  "name": "glow-plan",
+  "version": "1.0.0",
+  "description": "Weekly glow plan with persistent logs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
